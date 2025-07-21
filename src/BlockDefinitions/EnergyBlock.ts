@@ -10,6 +10,10 @@ export function initializeEnergyBlock(block: Block, simulation: Simulation) {
   const energyData = simulation.input.energy;
 
   new Attribute(BaseIDs.energyCost, block, (timestep) =>
-    simulation.applyModifier(energyData.energyCost, BaseIDs.energyCost)
+    simulation.applyModifier(
+      energyData.energyCost,
+      BaseIDs.energyCost,
+      timestep
+    )
   );
 }

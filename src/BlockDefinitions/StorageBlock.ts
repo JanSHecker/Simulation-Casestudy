@@ -33,7 +33,8 @@ export function initializeStorageBlock(
     (timestep) =>
       simulation.applyModifier(
         productData.baseDemand,
-        getStorageAttributeId(product, BaseIDs.baseDemand)
+        getStorageAttributeId(product, BaseIDs.baseDemand),
+        timestep
       )
   );
 
@@ -55,7 +56,8 @@ export function initializeStorageBlock(
       return simulation.applyModifier(
         block.getAttribute(getStorageAttributeId(product, BaseIDs.baseDemand)) +
           previousDelayedDemand,
-        getStorageAttributeId(product, BaseIDs.demand)
+        getStorageAttributeId(product, BaseIDs.demand),
+        timestep
       );
     }
   );
@@ -90,7 +92,8 @@ export function initializeStorageBlock(
             .getAttribute(
               getProductAttributeId(product, ProductBaseIDs.producedUnits)
             ),
-        getStorageAttributeId(product, BaseIDs.unitsInStorage)
+        getStorageAttributeId(product, BaseIDs.unitsInStorage),
+        timestep
       );
     }
   );
@@ -110,7 +113,8 @@ export function initializeStorageBlock(
 
       return simulation.applyModifier(
         Math.min(currentDemand, availableStorage),
-        getStorageAttributeId(product, BaseIDs.sold)
+        getStorageAttributeId(product, BaseIDs.sold),
+        timestep
       );
     }
   );
@@ -130,7 +134,8 @@ export function initializeStorageBlock(
 
       return simulation.applyModifier(
         Math.max(0, currentDemand - currentSold),
-        getStorageAttributeId(product, BaseIDs.delayedDemand)
+        getStorageAttributeId(product, BaseIDs.delayedDemand),
+        timestep
       );
     }
   );

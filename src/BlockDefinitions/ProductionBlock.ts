@@ -43,7 +43,8 @@ export function initializeProductionBlock(
     (timestep) =>
       simulation.applyModifier(
         productData.production.energyConsumptionPerUnit,
-        getProductionAttributeId(product, BaseIDs.energyConsumptionPerUnit)
+        getProductionAttributeId(product, BaseIDs.energyConsumptionPerUnit),
+        timestep
       )
   );
 
@@ -58,7 +59,8 @@ export function initializeProductionBlock(
           block.timestep
             .getBlock(BlockType.ENERGY)
             .getAttribute(EnergyBaseIDs.energyCost),
-        getProductionAttributeId(product, BaseIDs.energyCostPerUnit)
+        getProductionAttributeId(product, BaseIDs.energyCostPerUnit),
+        timestep
       )
   );
 
@@ -69,7 +71,8 @@ export function initializeProductionBlock(
     (timestep) =>
       simulation.applyModifier(
         productData.production.co2EmissionPerUnit,
-        getProductionAttributeId(product, BaseIDs.emittedCo2PerUnit)
+        getProductionAttributeId(product, BaseIDs.emittedCo2PerUnit),
+        timestep
       )
   );
 
@@ -84,7 +87,8 @@ export function initializeProductionBlock(
           block.timestep
             .getBlock(BlockType.LEGAL)
             .getAttribute(LegalBaseIDs.co2Tax),
-        getProductionAttributeId(product, BaseIDs.co2TaxCostPerUnit)
+        getProductionAttributeId(product, BaseIDs.co2TaxCostPerUnit),
+        timestep
       )
   );
 
@@ -105,7 +109,8 @@ export function initializeProductionBlock(
             product,
             BaseIDs.consumptionPerUnit,
             material
-          )
+          ),
+          timestep
         )
     );
 
@@ -130,7 +135,8 @@ export function initializeProductionBlock(
                   MaterialBaseIDs.costPerUnit
                 )
               ),
-          getProductionAttributeId(product, BaseIDs.costPerProduct, material)
+          getProductionAttributeId(product, BaseIDs.costPerProduct, material),
+          timestep
         )
     );
 
@@ -150,7 +156,8 @@ export function initializeProductionBlock(
           (sum, attrId) => sum + block.getAttribute(attrId),
           0
         ),
-        getProductionAttributeId(product, BaseIDs.totalMaterialCostPerProduct)
+        getProductionAttributeId(product, BaseIDs.totalMaterialCostPerProduct),
+        timestep
       )
   );
 
@@ -168,7 +175,8 @@ export function initializeProductionBlock(
           block.getAttribute(
             getProductionAttributeId(product, BaseIDs.co2TaxCostPerUnit)
           ),
-        getProductionAttributeId(product, BaseIDs.totalCostPerProduct)
+        getProductionAttributeId(product, BaseIDs.totalCostPerProduct),
+        timestep
       )
   );
 }

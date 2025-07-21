@@ -46,7 +46,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
       }
       return simulation.applyModifier(
         total,
-        getTotalAttributeId(BaseIDs.total_energy_use)
+        getTotalAttributeId(BaseIDs.total_energy_use),
+        timestep
       );
     }
   );
@@ -66,7 +67,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
       }
       return simulation.applyModifier(
         total,
-        getTotalAttributeId(BaseIDs.total_energy_cost)
+        getTotalAttributeId(BaseIDs.total_energy_cost),
+        timestep
       );
     }
   );
@@ -86,7 +88,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
       }
       return simulation.applyModifier(
         total,
-        getTotalAttributeId(BaseIDs.total_co2_emission)
+        getTotalAttributeId(BaseIDs.total_co2_emission),
+        timestep
       );
     }
   );
@@ -106,7 +109,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
       }
       return simulation.applyModifier(
         total,
-        getTotalAttributeId(BaseIDs.total_co2_tax_cost)
+        getTotalAttributeId(BaseIDs.total_co2_tax_cost),
+        timestep
       );
     }
   );
@@ -132,7 +136,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
         }
         return simulation.applyModifier(
           total,
-          getTotalAttributeId(BaseIDs.total_consumed, material)
+          getTotalAttributeId(BaseIDs.total_consumed, material),
+          timestep
         );
       }
     );
@@ -154,7 +159,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
         }
         return simulation.applyModifier(
           total,
-          getTotalAttributeId(BaseIDs.total_cost, material)
+          getTotalAttributeId(BaseIDs.total_cost, material),
+          timestep
         );
       }
     );
@@ -175,7 +181,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
       }
       return simulation.applyModifier(
         totalMaterialCosts,
-        getTotalAttributeId(BaseIDs.total_material_costs)
+        getTotalAttributeId(BaseIDs.total_material_costs),
+        timestep
       );
     }
   );
@@ -193,7 +200,8 @@ export function initializeTotalBlock(block: Block, simulation: Simulation) {
 
       return simulation.applyModifier(
         totalCost,
-        getTotalAttributeId(BaseIDs.total_all_costs)
+        getTotalAttributeId(BaseIDs.total_all_costs),
+        timestep
       );
     }
   );

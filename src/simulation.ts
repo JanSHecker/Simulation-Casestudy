@@ -21,11 +21,15 @@ export class Simulation {
     console.log("Timesteps initialized:", this.timesteps.length);
   }
   //check if an active modifier exists for the attribute
-  applyModifier(base: number, attribute: string): number {
+  applyModifier(base: number, attribute: string, timestep: Timestep): number {
     let value = base;
     if (this.modifiers[attribute]) {
       for (const modifier of this.modifiers[attribute]) {
-        if (modifier.active) {
+        const shouldApply = timestep
+          ? modifier.shouldApply(timestep, this)
+          : modifier.active;
+
+        if (shouldApply) {
           value = modifier.apply(value);
         }
       }

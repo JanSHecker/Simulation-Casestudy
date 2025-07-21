@@ -1,5 +1,5 @@
 {
-  "numberOfTimesteps": 30,
+  "numberOfTimesteps": 1000,
   "materials": {
     "steel": {
       "basePrice": 2.5,
@@ -17,19 +17,19 @@
       "producedUnits": 100,
       "production": {
         "energyConsumptionPerUnit": 0.1,
-        "co2EmissionPerUnit": 3,
-        "steelConsumption": 50,
-        "plasticConsumption": 30
+        "co2EmissionPerUnit": 2.5,
+        "steelConsumption": 5,
+        "plasticConsumption": 3
       },
       "baseDemand": 500
     },
     "gadget": {
       "producedUnits": 200,
       "production": {
-        "energyConsumptionPerUnit": 0.1,
+        "energyConsumptionPerUnit": 0.15,
         "co2EmissionPerUnit": 3,
-        "steelConsumption": 70,
-        "plasticConsumption": 40
+        "steelConsumption": 7,
+        "plasticConsumption": 4
       },
       "baseDemand": 300
     }

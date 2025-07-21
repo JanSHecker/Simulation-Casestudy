@@ -31,7 +31,8 @@ export function initializeMaterialBlock(
     (timestep) =>
       simulation.applyModifier(
         materialData.basePrice,
-        getMaterialAttributeId(material, BaseIDs.basePrice)
+        getMaterialAttributeId(material, BaseIDs.basePrice),
+        timestep
       )
   );
 
@@ -41,7 +42,8 @@ export function initializeMaterialBlock(
     (timestep) =>
       simulation.applyModifier(
         materialData.tariffRate,
-        getMaterialAttributeId(material, BaseIDs.tariffRate)
+        getMaterialAttributeId(material, BaseIDs.tariffRate),
+        timestep
       )
   );
 
@@ -52,7 +54,8 @@ export function initializeMaterialBlock(
     (timestep) =>
       simulation.applyModifier(
         materialData.co2EmissionPerUnit,
-        getMaterialAttributeId(material, BaseIDs.co2EmissionPerUnit)
+        getMaterialAttributeId(material, BaseIDs.co2EmissionPerUnit),
+        timestep
       )
   );
 
@@ -65,7 +68,8 @@ export function initializeMaterialBlock(
           block.timestep
             .getBlock(BlockType.LEGAL)
             .getAttribute(LegalBaseIDs.co2Tax),
-        getMaterialAttributeId(material, BaseIDs.co2TaxCostPerUnit)
+        getMaterialAttributeId(material, BaseIDs.co2TaxCostPerUnit),
+        timestep
       )
   );
 
@@ -81,7 +85,8 @@ export function initializeMaterialBlock(
             block.timestep
               .getBlock(BlockType.LEGAL)
               .getAttribute(LegalBaseIDs.co2Tax),
-        getMaterialAttributeId(material, BaseIDs.costPerUnit)
+        getMaterialAttributeId(material, BaseIDs.costPerUnit),
+        timestep
       )
   );
 }
