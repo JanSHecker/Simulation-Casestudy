@@ -1019,7 +1019,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1120,7 +1120,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1221,7 +1221,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1322,7 +1322,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1423,7 +1423,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1524,7 +1524,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1625,7 +1625,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1726,7 +1726,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1827,7 +1827,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -1928,7 +1928,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
@@ -2029,7 +2029,7 @@
         "co2Tax": 0.1
       },
       "steel_material": {
-        "steel_basePrice": 2.5,
+        "steel_basePrice": 3.25,
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,

@@ -1,12 +1,14 @@
 {
-  "numberOfTimesteps": 1000,
+  "numberOfTimesteps": 30,
   "materials": {
     "steel": {
+      "id": "steel",
       "basePrice": 2.5,
       "tariffRate": 0.2,
       "co2EmissionPerUnit": 3
     },
     "plastic": {
+      "id": "plastic",
       "basePrice": 1.8,
       "tariffRate": 0.15,
       "co2EmissionPerUnit": 2.5
@@ -14,6 +16,7 @@
   },
   "products": {
     "widget": {
+      "id": "widget",
       "producedUnits": 100,
       "production": {
         "energyConsumptionPerUnit": 0.1,
@@ -24,6 +27,7 @@
       "baseDemand": 500
     },
     "gadget": {
+      "id": "gadget",
       "producedUnits": 200,
       "production": {
         "energyConsumptionPerUnit": 0.15,

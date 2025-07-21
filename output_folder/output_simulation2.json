@@ -522,7 +522,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -623,7 +623,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -724,7 +724,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -825,7 +825,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -926,7 +926,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1027,7 +1027,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1128,7 +1128,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1229,7 +1229,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1330,7 +1330,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1431,7 +1431,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003
@@ -1532,7 +1532,7 @@
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
-        "plastic_tariffRate": 0.15,
+        "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
         "plastic_costPerUnit": 2.3200000000000003

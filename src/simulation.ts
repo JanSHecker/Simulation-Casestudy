@@ -25,12 +25,9 @@ export class Simulation {
     let value = base;
     if (this.modifiers[attribute]) {
       for (const modifier of this.modifiers[attribute]) {
-        const shouldApply = timestep
-          ? modifier.shouldApply(timestep, this)
-          : modifier.active;
-
+        const shouldApply = modifier.shouldApply(timestep, this);
         if (shouldApply) {
-          value = modifier.apply(value);
+          value = modifier.apply(value, attribute, timestep);
         }
       }
     }
@@ -80,6 +77,13 @@ export class Simulation {
     const filepath = path.join(outputFolder, filename);
     fs.writeFileSync(filepath, jsonResults);
     console.log(`Simulation results saved to ${filepath}`);
+  }
+
+  addModifier(modifier: Modifier) {
+    if (!this.modifiers[modifier.attribute]) {
+      this.modifiers[modifier.attribute] = [];
+    }
+    this.modifiers[modifier.attribute].push(modifier);
   }
 }
 

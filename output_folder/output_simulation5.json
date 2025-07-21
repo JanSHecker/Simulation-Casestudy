@@ -67,36 +67,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 0,
+        "gadget_energyUse": 0,
+        "gadget_energyCost": 0,
+        "gadget_co2Emission": 0,
+        "gadget_co2TaxCost": 0,
+        "gadget_steel_materialUse": 0,
+        "gadget_steel_materialCost": 0,
+        "gadget_plastic_materialUse": 0,
+        "gadget_plastic_materialCost": 0,
+        "gadget_materialCost": 0,
+        "gadget_totalCost": 0
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
         "gadget_demand": 300,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 100
+        "gadget_unitsInStorage": 0,
+        "gadget_sold": 0,
+        "gadget_delayedDemand": 300
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10,
+        "total_energy_cost": 1.0000000000000002,
+        "total_co2_emission": 250,
+        "total_co2_tax_cost": 25,
+        "steel_total_consumed": 500,
+        "steel_total_cost": 1650,
+        "plastic_total_consumed": 300,
+        "plastic_total_cost": 696.0000000000001,
+        "total_material_costs": 2346,
+        "total_all_costs": 2372
       }
     }
   },
@@ -168,36 +168,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 5,
+        "gadget_energyUse": 0.75,
+        "gadget_energyCost": 0.075,
+        "gadget_co2Emission": 15,
+        "gadget_co2TaxCost": 1.5,
+        "gadget_steel_materialUse": 35,
+        "gadget_steel_materialCost": 115.49999999999999,
+        "gadget_plastic_materialUse": 20,
+        "gadget_plastic_materialCost": 46.400000000000006,
+        "gadget_materialCost": 161.89999999999998,
+        "gadget_totalCost": 163.47499999999997
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 400,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 200
+        "gadget_demand": 600,
+        "gadget_unitsInStorage": 5,
+        "gadget_sold": 5,
+        "gadget_delayedDemand": 595
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10.75,
+        "total_energy_cost": 1.0750000000000002,
+        "total_co2_emission": 265,
+        "total_co2_tax_cost": 26.5,
+        "steel_total_consumed": 535,
+        "steel_total_cost": 1765.5,
+        "plastic_total_consumed": 320,
+        "plastic_total_cost": 742.4000000000001,
+        "total_material_costs": 2507.9,
+        "total_all_costs": 2535.475
       }
     }
   },
@@ -269,36 +269,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 5,
+        "gadget_energyUse": 0.75,
+        "gadget_energyCost": 0.075,
+        "gadget_co2Emission": 15,
+        "gadget_co2TaxCost": 1.5,
+        "gadget_steel_materialUse": 35,
+        "gadget_steel_materialCost": 115.49999999999999,
+        "gadget_plastic_materialUse": 20,
+        "gadget_plastic_materialCost": 46.400000000000006,
+        "gadget_materialCost": 161.89999999999998,
+        "gadget_totalCost": 163.47499999999997
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 500,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 300
+        "gadget_demand": 895,
+        "gadget_unitsInStorage": 5,
+        "gadget_sold": 5,
+        "gadget_delayedDemand": 890
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10.75,
+        "total_energy_cost": 1.0750000000000002,
+        "total_co2_emission": 265,
+        "total_co2_tax_cost": 26.5,
+        "steel_total_consumed": 535,
+        "steel_total_cost": 1765.5,
+        "plastic_total_consumed": 320,
+        "plastic_total_cost": 742.4000000000001,
+        "total_material_costs": 2507.9,
+        "total_all_costs": 2535.475
       }
     }
   },
@@ -370,36 +370,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 5,
+        "gadget_energyUse": 0.75,
+        "gadget_energyCost": 0.075,
+        "gadget_co2Emission": 15,
+        "gadget_co2TaxCost": 1.5,
+        "gadget_steel_materialUse": 35,
+        "gadget_steel_materialCost": 115.49999999999999,
+        "gadget_plastic_materialUse": 20,
+        "gadget_plastic_materialCost": 46.400000000000006,
+        "gadget_materialCost": 161.89999999999998,
+        "gadget_totalCost": 163.47499999999997
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 600,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 400
+        "gadget_demand": 1190,
+        "gadget_unitsInStorage": 5,
+        "gadget_sold": 5,
+        "gadget_delayedDemand": 1185
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10.75,
+        "total_energy_cost": 1.0750000000000002,
+        "total_co2_emission": 265,
+        "total_co2_tax_cost": 26.5,
+        "steel_total_consumed": 535,
+        "steel_total_cost": 1765.5,
+        "plastic_total_consumed": 320,
+        "plastic_total_cost": 742.4000000000001,
+        "total_material_costs": 2507.9,
+        "total_all_costs": 2535.475
       }
     }
   },
@@ -471,36 +471,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 5,
+        "gadget_energyUse": 0.75,
+        "gadget_energyCost": 0.075,
+        "gadget_co2Emission": 15,
+        "gadget_co2TaxCost": 1.5,
+        "gadget_steel_materialUse": 35,
+        "gadget_steel_materialCost": 115.49999999999999,
+        "gadget_plastic_materialUse": 20,
+        "gadget_plastic_materialCost": 46.400000000000006,
+        "gadget_materialCost": 161.89999999999998,
+        "gadget_totalCost": 163.47499999999997
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 700,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 500
+        "gadget_demand": 1485,
+        "gadget_unitsInStorage": 5,
+        "gadget_sold": 5,
+        "gadget_delayedDemand": 1480
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10.75,
+        "total_energy_cost": 1.0750000000000002,
+        "total_co2_emission": 265,
+        "total_co2_tax_cost": 26.5,
+        "steel_total_consumed": 535,
+        "steel_total_cost": 1765.5,
+        "plastic_total_consumed": 320,
+        "plastic_total_cost": 742.4000000000001,
+        "total_material_costs": 2507.9,
+        "total_all_costs": 2535.475
       }
     }
   },
@@ -572,36 +572,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 5,
+        "gadget_energyUse": 0.75,
+        "gadget_energyCost": 0.075,
+        "gadget_co2Emission": 15,
+        "gadget_co2TaxCost": 1.5,
+        "gadget_steel_materialUse": 35,
+        "gadget_steel_materialCost": 115.49999999999999,
+        "gadget_plastic_materialUse": 20,
+        "gadget_plastic_materialCost": 46.400000000000006,
+        "gadget_materialCost": 161.89999999999998,
+        "gadget_totalCost": 163.47499999999997
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 800,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 600
+        "gadget_demand": 1780,
+        "gadget_unitsInStorage": 5,
+        "gadget_sold": 5,
+        "gadget_delayedDemand": 1775
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 10.75,
+        "total_energy_cost": 1.0750000000000002,
+        "total_co2_emission": 265,
+        "total_co2_tax_cost": 26.5,
+        "steel_total_consumed": 535,
+        "steel_total_cost": 1765.5,
+        "plastic_total_consumed": 320,
+        "plastic_total_cost": 742.4000000000001,
+        "total_material_costs": 2507.9,
+        "total_all_costs": 2535.475
       }
     }
   },
@@ -673,36 +673,36 @@
         "gadget_totalCostPerProduct": 32.69499999999999
       },
       "gadget_product": {
-        "gadget_producedUnits": 200,
-        "gadget_energyUse": 30,
-        "gadget_energyCost": 3,
-        "gadget_co2Emission": 600,
-        "gadget_co2TaxCost": 60,
-        "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
-        "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_producedUnits": 205,
+        "gadget_energyUse": 30.75,
+        "gadget_energyCost": 3.0749999999999997,
+        "gadget_co2Emission": 615,
+        "gadget_co2TaxCost": 61.5,
+        "gadget_steel_materialUse": 1435,
+        "gadget_steel_materialCost": 4735.5,
+        "gadget_plastic_materialUse": 820,
+        "gadget_plastic_materialCost": 1902.4000000000003,
+        "gadget_materialCost": 6637.900000000001,
+        "gadget_totalCost": 6702.475
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 900,
-        "gadget_unitsInStorage": 200,
-        "gadget_sold": 200,
-        "gadget_delayedDemand": 700
+        "gadget_demand": 2075,
+        "gadget_unitsInStorage": 205,
+        "gadget_sold": 205,
+        "gadget_delayedDemand": 1870
       },
       "total": {
-        "total_energy_use": 40,
-        "total_energy_cost": 4,
-        "total_co2_emission": 850,
-        "total_co2_tax_cost": 85,
-        "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
-        "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "total_energy_use": 40.75,
+        "total_energy_cost": 4.075,
+        "total_co2_emission": 865,
+        "total_co2_tax_cost": 86.5,
+        "steel_total_consumed": 1935,
+        "steel_total_cost": 6385.5,
+        "plastic_total_consumed": 1120,
+        "plastic_total_cost": 2598.4000000000005,
+        "total_material_costs": 8983.900000000001,
+        "total_all_costs": 9074.475000000002
       }
     }
   },
@@ -788,10 +788,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1000,
+        "gadget_demand": 2170,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 800
+        "gadget_delayedDemand": 1970
       },
       "total": {
         "total_energy_use": 40,
@@ -889,10 +889,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1100,
+        "gadget_demand": 2270,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 900
+        "gadget_delayedDemand": 2070
       },
       "total": {
         "total_energy_use": 40,
@@ -990,10 +990,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1200,
+        "gadget_demand": 2370,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1000
+        "gadget_delayedDemand": 2170
       },
       "total": {
         "total_energy_use": 40,
@@ -1091,10 +1091,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1300,
+        "gadget_demand": 2470,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1100
+        "gadget_delayedDemand": 2270
       },
       "total": {
         "total_energy_use": 40,
@@ -1192,10 +1192,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1400,
+        "gadget_demand": 2570,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1200
+        "gadget_delayedDemand": 2370
       },
       "total": {
         "total_energy_use": 40,
@@ -1293,10 +1293,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1500,
+        "gadget_demand": 2670,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1300
+        "gadget_delayedDemand": 2470
       },
       "total": {
         "total_energy_use": 40,
@@ -1394,10 +1394,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1600,
+        "gadget_demand": 2770,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1400
+        "gadget_delayedDemand": 2570
       },
       "total": {
         "total_energy_use": 40,
@@ -1495,10 +1495,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1700,
+        "gadget_demand": 2870,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1500
+        "gadget_delayedDemand": 2670
       },
       "total": {
         "total_energy_use": 40,
@@ -1596,10 +1596,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1800,
+        "gadget_demand": 2970,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1600
+        "gadget_delayedDemand": 2770
       },
       "total": {
         "total_energy_use": 40,
@@ -1697,10 +1697,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 1900,
+        "gadget_demand": 3070,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1700
+        "gadget_delayedDemand": 2870
       },
       "total": {
         "total_energy_use": 40,
@@ -1798,10 +1798,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2000,
+        "gadget_demand": 3170,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1800
+        "gadget_delayedDemand": 2970
       },
       "total": {
         "total_energy_use": 40,
@@ -1899,10 +1899,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2100,
+        "gadget_demand": 3270,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 1900
+        "gadget_delayedDemand": 3070
       },
       "total": {
         "total_energy_use": 40,
@@ -2000,10 +2000,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2200,
+        "gadget_demand": 3370,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2000
+        "gadget_delayedDemand": 3170
       },
       "total": {
         "total_energy_use": 40,
@@ -2101,10 +2101,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2300,
+        "gadget_demand": 3470,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2100
+        "gadget_delayedDemand": 3270
       },
       "total": {
         "total_energy_use": 40,
@@ -2202,10 +2202,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2400,
+        "gadget_demand": 3570,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2200
+        "gadget_delayedDemand": 3370
       },
       "total": {
         "total_energy_use": 40,
@@ -2303,10 +2303,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2500,
+        "gadget_demand": 3670,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2300
+        "gadget_delayedDemand": 3470
       },
       "total": {
         "total_energy_use": 40,
@@ -2404,10 +2404,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2600,
+        "gadget_demand": 3770,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2400
+        "gadget_delayedDemand": 3570
       },
       "total": {
         "total_energy_use": 40,
@@ -2505,10 +2505,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2700,
+        "gadget_demand": 3870,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2500
+        "gadget_delayedDemand": 3670
       },
       "total": {
         "total_energy_use": 40,
@@ -2606,10 +2606,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2800,
+        "gadget_demand": 3970,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2600
+        "gadget_delayedDemand": 3770
       },
       "total": {
         "total_energy_use": 40,
@@ -2707,10 +2707,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 2900,
+        "gadget_demand": 4070,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2700
+        "gadget_delayedDemand": 3870
       },
       "total": {
         "total_energy_use": 40,
@@ -2808,10 +2808,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 3000,
+        "gadget_demand": 4170,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2800
+        "gadget_delayedDemand": 3970
       },
       "total": {
         "total_energy_use": 40,
@@ -2909,10 +2909,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 3100,
+        "gadget_demand": 4270,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 2900
+        "gadget_delayedDemand": 4070
       },
       "total": {
         "total_energy_use": 40,
@@ -3010,10 +3010,10 @@
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
-        "gadget_demand": 3200,
+        "gadget_demand": 4370,
         "gadget_unitsInStorage": 200,
         "gadget_sold": 200,
-        "gadget_delayedDemand": 3000
+        "gadget_delayedDemand": 4170
       },
       "total": {
         "total_energy_use": 40,
