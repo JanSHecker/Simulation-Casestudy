@@ -1,0 +1,43 @@
+{
+  "numberOfTimesteps": 30,
+  "materials": {
+    "steel": {
+      "basePrice": 2.5,
+      "tariffRate": 0.2,
+      "co2EmissionPerUnit": 3
+    },
+    "plastic": {
+      "basePrice": 1.8,
+      "tariffRate": 0.15,
+      "co2EmissionPerUnit": 2.5
+    }
+  },
+  "products": {
+    "widget": {
+      "producedUnits": 100,
+      "production": {
+        "energyConsumptionPerUnit": 0.1,
+        "co2EmissionPerUnit": 3,
+        "steelConsumption": 50,
+        "plasticConsumption": 30
+      },
+      "baseDemand": 500
+    },
+    "gadget": {
+      "producedUnits": 200,
+      "production": {
+        "energyConsumptionPerUnit": 0.1,
+        "co2EmissionPerUnit": 3,
+        "steelConsumption": 70,
+        "plasticConsumption": 40
+      },
+      "baseDemand": 300
+    }
+  },
+  "legal": {
+    "co2Tax": 0.1
+  },
+  "energy": {
+    "energyCost": 0.1
+  }
+}
