@@ -1,6 +1,11 @@
 import input from "./input.json";
 import { Modifier, ModifierMode } from "./modifier";
-import { Trigger } from "./trigger";
+import {
+  ComparisonOperator,
+  LogicalOperator,
+  Trigger,
+  TriggerType,
+} from "./trigger";
 import {
   getMaterialAttributeId,
   BaseIDs as MaterialBaseIDs,
@@ -14,6 +19,12 @@ import {
   getProductAttributeId,
   BaseIDs as ProductBaseIDs,
 } from "./BlockDefinitions/ProductBlock";
+
+import {
+  getStorageAttributeId,
+  BaseIDs as StorageBaseIDs,
+} from "./BlockDefinitions/StorageBlock";
+import { BlockType } from "./block";
 
 // Example: Add a steel price increase that happens during timesteps 10-20
 const priceSpikeTrigger = Trigger.createTimestepRange(10, 20);
@@ -69,4 +80,33 @@ export const gadgetProductionDelay = new Modifier(
   ModifierMode.DELAY,
   5, // Delay production by 5 timesteps
   gadgetProductionDelayTrigger
+);
+
+const gadgetProductionIncreaseTrigger = Trigger.createCombined(
+  [
+    {
+      type: TriggerType.TIMESTEP_RANGE,
+      minTimestep: 15,
+      maxTimestep: 30,
+    },
+    {
+      type: TriggerType.ATTRIBUTE_THRESHOLD,
+      blockId: `${input.products.gadget.id}_${BlockType.STORAGE}`,
+      attributeId: getStorageAttributeId(
+        input.products.gadget.id as Products,
+        StorageBaseIDs.demand
+      ),
+      operator: ComparisonOperator.GREATER_EQUAL,
+      value: 1000, // Increase production if gadget demand >= 1000 units
+    },
+  ],
+  LogicalOperator.AND
+);
+
+export const gadgetProductionIncrease = new Modifier(
+  "gadget_production_increase",
+  gadgetProducedUnitsID,
+  ModifierMode.ABSOLUTE,
+  7548, // Increase production by 7548 units
+  gadgetProductionIncreaseTrigger
 );

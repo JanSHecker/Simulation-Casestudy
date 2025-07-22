@@ -1,0 +1,3032 @@
+[
+  {
+    "step": 0,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 100
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 1,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 400,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 200
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 2,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 1300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 1200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 500,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 300
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 3,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 1700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 1600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 600,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 400
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 4,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 2100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 2000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 700,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 500
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 5,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 2500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 2400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 800,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 600
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 6,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 2900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 2800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 900,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 700
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 7,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 3300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 3200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1000,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 800
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 8,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 3700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 3600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1100,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 900
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 9,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 4100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 4000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1200,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1000
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 10,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 4500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 4400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1300,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1100
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 11,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 4900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 4800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1400,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1200
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 12,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 5300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 5200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1500,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1300
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 13,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 5700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 5600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1600,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1400
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 14,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 6100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 6000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1700,
+        "gadget_unitsInStorage": 200,
+        "gadget_sold": 200,
+        "gadget_delayedDemand": 1500
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 15,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 6500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 6400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 7748,
+        "gadget_energyUse": 1162.2,
+        "gadget_energyCost": 116.22,
+        "gadget_co2Emission": 23244,
+        "gadget_co2TaxCost": 2324.4,
+        "gadget_steel_materialUse": 54236,
+        "gadget_steel_materialCost": 178978.8,
+        "gadget_plastic_materialUse": 30992,
+        "gadget_plastic_materialCost": 71901.44,
+        "gadget_materialCost": 250880.24,
+        "gadget_totalCost": 253320.86
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 1800,
+        "gadget_unitsInStorage": 7748,
+        "gadget_sold": 1800,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 1172.2,
+        "total_energy_cost": 117.22,
+        "total_co2_emission": 23494,
+        "total_co2_tax_cost": 2349.4,
+        "steel_total_consumed": 54736,
+        "steel_total_cost": 180628.8,
+        "plastic_total_consumed": 31292,
+        "plastic_total_cost": 72597.44,
+        "total_material_costs": 253226.24,
+        "total_all_costs": 255692.86
+      }
+    }
+  },
+  {
+    "step": 16,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 6900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 6800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 7748,
+        "gadget_energyUse": 1162.2,
+        "gadget_energyCost": 116.22,
+        "gadget_co2Emission": 23244,
+        "gadget_co2TaxCost": 2324.4,
+        "gadget_steel_materialUse": 54236,
+        "gadget_steel_materialCost": 178978.8,
+        "gadget_plastic_materialUse": 30992,
+        "gadget_plastic_materialCost": 71901.44,
+        "gadget_materialCost": 250880.24,
+        "gadget_totalCost": 253320.86
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13696,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 1172.2,
+        "total_energy_cost": 117.22,
+        "total_co2_emission": 23494,
+        "total_co2_tax_cost": 2349.4,
+        "steel_total_consumed": 54736,
+        "steel_total_cost": 180628.8,
+        "plastic_total_consumed": 31292,
+        "plastic_total_cost": 72597.44,
+        "total_material_costs": 253226.24,
+        "total_all_costs": 255692.86
+      }
+    }
+  },
+  {
+    "step": 17,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 7300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 7200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13596,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 18,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 7700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 7600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13496,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 19,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 8100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 8000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13396,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 20,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 8500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 8400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13296,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 21,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 8900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 8800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13196,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 22,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 9300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 9200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 13096,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 23,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 9700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 9600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12996,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 24,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 10100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 10000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12896,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 25,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 10500,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 10400
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12796,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 26,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 10900,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 10800
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12696,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 27,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 11300,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 11200
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12596,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 28,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 11700,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 11600
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12496,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  },
+  {
+    "step": 29,
+    "blocks": {
+      "energy": {
+        "energyCost": 0.1
+      },
+      "legal": {
+        "co2Tax": 0.1
+      },
+      "steel_material": {
+        "steel_basePrice": 2.5,
+        "steel_tariffRate": 0.2,
+        "steel_co2EmissionPerUnit": 3,
+        "steel_co2TaxCostPerUnit": 0.30000000000000004,
+        "steel_costPerUnit": 3.3
+      },
+      "plastic_material": {
+        "plastic_basePrice": 1.8,
+        "plastic_tariffRate": 0.15,
+        "plastic_co2EmissionPerUnit": 2.5,
+        "plastic_co2TaxCostPerUnit": 0.25,
+        "plastic_costPerUnit": 2.3200000000000003
+      },
+      "widget_production": {
+        "widget_energyConsumptionPerUnit": 0.1,
+        "widget_energyCostPerUnit": 0.010000000000000002,
+        "widget_emittedCo2PerUnit": 2.5,
+        "widget_co2TaxCostPerUnit": 0.25,
+        "widget_steel_consumptionPerUnit": 5,
+        "widget_steel_costPerProduct": 16.5,
+        "widget_plastic_consumptionPerUnit": 3,
+        "widget_plastic_costPerProduct": 6.960000000000001,
+        "widget_totalMaterialCostPerProduct": 23.46,
+        "widget_totalCostPerProduct": 23.720000000000002
+      },
+      "widget_product": {
+        "widget_producedUnits": 100,
+        "widget_energyUse": 10,
+        "widget_energyCost": 1.0000000000000002,
+        "widget_co2Emission": 250,
+        "widget_co2TaxCost": 25,
+        "widget_steel_materialUse": 500,
+        "widget_steel_materialCost": 1650,
+        "widget_plastic_materialUse": 300,
+        "widget_plastic_materialCost": 696.0000000000001,
+        "widget_materialCost": 2346,
+        "widget_totalCost": 2372
+      },
+      "widget_storage": {
+        "widget_baseDemand": 500,
+        "widget_demand": 12100,
+        "widget_unitsInStorage": 100,
+        "widget_sold": 100,
+        "widget_delayedDemand": 12000
+      },
+      "gadget_production": {
+        "gadget_energyConsumptionPerUnit": 0.15,
+        "gadget_energyCostPerUnit": 0.015,
+        "gadget_emittedCo2PerUnit": 3,
+        "gadget_co2TaxCostPerUnit": 0.30000000000000004,
+        "gadget_steel_consumptionPerUnit": 7,
+        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_plastic_consumptionPerUnit": 4,
+        "gadget_plastic_costPerProduct": 9.280000000000001,
+        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
+        "gadget_totalCostPerProduct": 32.69499999999999
+      },
+      "gadget_product": {
+        "gadget_producedUnits": 200,
+        "gadget_energyUse": 30,
+        "gadget_energyCost": 3,
+        "gadget_co2Emission": 600,
+        "gadget_co2TaxCost": 60,
+        "gadget_steel_materialUse": 1400,
+        "gadget_steel_materialCost": 4620,
+        "gadget_plastic_materialUse": 800,
+        "gadget_plastic_materialCost": 1856.0000000000002,
+        "gadget_materialCost": 6476,
+        "gadget_totalCost": 6539
+      },
+      "gadget_storage": {
+        "gadget_baseDemand": 300,
+        "gadget_demand": 300,
+        "gadget_unitsInStorage": 12396,
+        "gadget_sold": 300,
+        "gadget_delayedDemand": 0
+      },
+      "total": {
+        "total_energy_use": 40,
+        "total_energy_cost": 4,
+        "total_co2_emission": 850,
+        "total_co2_tax_cost": 85,
+        "steel_total_consumed": 1900,
+        "steel_total_cost": 6270,
+        "plastic_total_consumed": 1100,
+        "plastic_total_cost": 2552.0000000000005,
+        "total_material_costs": 8822,
+        "total_all_costs": 8911
+      }
+    }
+  }
+]

@@ -6,7 +6,7 @@ import {
   BaseIDs as ProductBaseIDs,
 } from "./ProductBlock";
 
-enum BaseIDs {
+export enum BaseIDs {
   unitsInStorage = "unitsInStorage",
   baseDemand = "baseDemand",
   demand = "demand",
@@ -14,7 +14,10 @@ enum BaseIDs {
   sold = "sold",
 }
 
-function getStorageAttributeId(product: Products, baseId: BaseIDs): string {
+export function getStorageAttributeId(
+  product: Products,
+  baseId: BaseIDs
+): string {
   return `${product}_${baseId}`;
 }
 

@@ -28,6 +28,9 @@ export class Simulation {
         const shouldApply = modifier.shouldApply(timestep, this);
         if (shouldApply) {
           value = modifier.apply(value, attribute, timestep);
+          console.log(
+            `Applied modifier ${modifier.id} to attribute ${attribute} at timestep ${timestep.step}. New value: ${value}`
+          );
         }
       }
     }
