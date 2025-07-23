@@ -2,7 +2,7 @@
   "name": "simulation-casestudy",
   "version": "1.0.0",
   "description": "Simulation Case Study",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "tsx watch src/main.ts",
     "start": "node dist/main.js",
