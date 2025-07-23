@@ -107,5 +107,5 @@ pnpm build
 ### Running
 
 ```bash
-pnpm dev
+pnpm start
 ```
