@@ -85,9 +85,7 @@ export class Trigger {
     timestep: Timestep
   ): boolean {
     const { blockId, attributeId, operator, value } = condition;
-    console.log(
-      `Evaluating attribute condition for block ${blockId}, attribute ${attributeId}, operator ${operator}, value ${value}`
-    );
+
     // Ensure all required fields are present
     if (!blockId || !attributeId || !operator || value === undefined) {
       console.log("Invalid attribute condition:", condition);
@@ -102,10 +100,6 @@ export class Trigger {
           ? timestep.simulation.timesteps[timestep.step - 1]
           : timestep;
 
-      console.log(
-        `Using timestep ${evaluationTimestep.step} for evaluation (current: ${timestep.step})`
-      );
-
       const block = evaluationTimestep.blocks[blockId];
       if (!block) {
         console.log(
@@ -114,7 +108,7 @@ export class Trigger {
         return false;
       }
       const attributeValue = block.getAttribute(attributeId);
-      console.log(`Attribute ${attributeId} value: ${attributeValue}`);
+
       return this.compareValues(attributeValue, operator, value);
     } catch (error) {
       console.log("Error evaluating attribute condition:", error);
@@ -146,9 +140,6 @@ export class Trigger {
     operator: ComparisonOperator,
     targetValue: number
   ): boolean {
-    console.log(
-      `Comparing attribute value ${attributeValue} with target value ${targetValue} using operator ${operator}`
-    );
     switch (operator) {
       case ComparisonOperator.GREATER_THAN:
         return attributeValue > targetValue;

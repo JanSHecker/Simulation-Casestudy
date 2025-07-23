@@ -25,6 +25,7 @@ export function initializeMaterialBlock(
   const materialData = simulation.input.materials[material];
 
   // Base price and tariff
+  // Formula: basePrice (from input configuration)
   new Attribute(
     getMaterialAttributeId(material, BaseIDs.basePrice),
     block,
@@ -36,6 +37,7 @@ export function initializeMaterialBlock(
       )
   );
 
+  // Formula: tariffRate (from input configuration)
   new Attribute(
     getMaterialAttributeId(material, BaseIDs.tariffRate),
     block,
@@ -48,6 +50,7 @@ export function initializeMaterialBlock(
   );
 
   // CO2 related attributes
+  // Formula: co2EmissionPerUnit (from input configuration)
   new Attribute(
     getMaterialAttributeId(material, BaseIDs.co2EmissionPerUnit),
     block,
@@ -59,6 +62,7 @@ export function initializeMaterialBlock(
       )
   );
 
+  // Formula: co2TaxCostPerUnit = co2EmissionPerUnit × co2Tax
   new Attribute(
     getMaterialAttributeId(material, BaseIDs.co2TaxCostPerUnit),
     block,
@@ -73,20 +77,30 @@ export function initializeMaterialBlock(
       )
   );
 
-  // Total cost with all factors
+  // Formula: costPerUnit = (basePrice + co2TaxCostPerUnit) × (1 + tariffRate)
+  // Uses calculated attributes instead of raw input values
   new Attribute(
     getMaterialAttributeId(material, BaseIDs.costPerUnit),
     block,
-    (timestep) =>
-      simulation.applyModifier(
-        materialData.basePrice +
-          materialData.tariffRate * materialData.basePrice +
-          materialData.co2EmissionPerUnit *
-            block.timestep
-              .getBlock(BlockType.LEGAL)
-              .getAttribute(LegalBaseIDs.co2Tax),
+    (timestep) => {
+      const basePrice = block.getAttribute(
+        getMaterialAttributeId(material, BaseIDs.basePrice)
+      );
+      const tariffRate = block.getAttribute(
+        getMaterialAttributeId(material, BaseIDs.tariffRate)
+      );
+      const co2TaxCost = block.getAttribute(
+        getMaterialAttributeId(material, BaseIDs.co2TaxCostPerUnit)
+      );
+
+      const basePriceWithCo2 = basePrice + co2TaxCost;
+      const totalCostWithTariff = basePriceWithCo2 * (1 + tariffRate);
+
+      return simulation.applyModifier(
+        totalCostWithTariff,
         getMaterialAttributeId(material, BaseIDs.costPerUnit),
         timestep
-      )
+      );
+    }
   );
 }

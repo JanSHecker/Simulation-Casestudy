@@ -13,14 +13,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -28,11 +28,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -41,11 +41,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -60,11 +60,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -73,11 +73,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -92,11 +92,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -114,14 +114,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -129,11 +129,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -142,11 +142,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -161,11 +161,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -174,11 +174,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -193,11 +193,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -215,14 +215,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -230,11 +230,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -243,11 +243,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -262,11 +262,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -275,11 +275,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -294,11 +294,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -316,14 +316,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -331,11 +331,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -344,11 +344,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -363,11 +363,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -376,11 +376,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -395,11 +395,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -417,14 +417,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -432,11 +432,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -445,11 +445,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -464,11 +464,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -477,11 +477,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -496,11 +496,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -518,14 +518,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -533,11 +533,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -546,11 +546,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -565,11 +565,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -578,11 +578,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -597,11 +597,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -619,14 +619,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -634,11 +634,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -647,11 +647,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -666,11 +666,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -679,11 +679,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -698,11 +698,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -720,14 +720,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -735,11 +735,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -748,11 +748,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -767,11 +767,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -780,11 +780,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -799,11 +799,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -821,14 +821,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -836,11 +836,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -849,11 +849,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -868,11 +868,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -881,11 +881,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -900,11 +900,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -922,14 +922,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -937,11 +937,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -950,11 +950,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -969,11 +969,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -982,11 +982,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1001,11 +1001,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1023,14 +1023,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1038,11 +1038,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1051,11 +1051,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1070,11 +1070,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1083,11 +1083,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1102,11 +1102,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1124,14 +1124,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1139,11 +1139,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1152,11 +1152,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1171,11 +1171,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1184,11 +1184,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1203,11 +1203,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1225,14 +1225,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1240,11 +1240,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1253,11 +1253,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1272,11 +1272,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1285,11 +1285,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1304,11 +1304,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1326,14 +1326,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1341,11 +1341,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1354,11 +1354,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1373,11 +1373,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1386,11 +1386,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1405,11 +1405,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1427,14 +1427,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1442,11 +1442,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1455,11 +1455,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1474,11 +1474,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1487,11 +1487,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1506,11 +1506,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1528,14 +1528,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.35,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.7675
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1543,11 +1543,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 8.3025,
+        "widget_totalMaterialCostPerProduct": 25.1025,
+        "widget_totalCostPerProduct": 25.3625
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1556,11 +1556,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 830.25,
+        "widget_materialCost": 2510.25,
+        "widget_totalCost": 2536.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1575,11 +1575,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 11.07,
+        "gadget_totalMaterialCostPerProduct": 34.59,
+        "gadget_totalCostPerProduct": 34.905
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1588,11 +1588,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 2214,
+        "gadget_materialCost": 6918,
+        "gadget_totalCost": 6981
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1607,11 +1607,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 3044.25,
+        "total_material_costs": 9428.25,
+        "total_all_costs": 9517.25
       }
     }
   },
@@ -1629,14 +1629,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1644,11 +1644,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1657,11 +1657,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1676,11 +1676,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1689,11 +1689,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1708,11 +1708,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -1730,14 +1730,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1745,11 +1745,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1758,11 +1758,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1777,11 +1777,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1790,11 +1790,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1809,11 +1809,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -1831,14 +1831,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1846,11 +1846,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1859,11 +1859,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1878,11 +1878,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1891,11 +1891,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -1910,11 +1910,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -1932,14 +1932,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -1947,11 +1947,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -1960,11 +1960,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -1979,11 +1979,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -1992,11 +1992,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2011,11 +2011,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2033,14 +2033,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2048,11 +2048,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2061,11 +2061,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2080,11 +2080,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2093,11 +2093,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2112,11 +2112,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2134,14 +2134,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2149,11 +2149,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2162,11 +2162,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2181,11 +2181,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2194,11 +2194,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2213,11 +2213,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2235,14 +2235,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2250,11 +2250,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2263,11 +2263,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2282,11 +2282,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2295,11 +2295,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2314,11 +2314,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2336,14 +2336,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2351,11 +2351,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2364,11 +2364,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2383,11 +2383,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2396,11 +2396,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2415,11 +2415,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2437,14 +2437,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2452,11 +2452,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2465,11 +2465,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2484,11 +2484,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2497,11 +2497,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2516,11 +2516,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2538,14 +2538,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2553,11 +2553,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2566,11 +2566,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2585,11 +2585,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2598,11 +2598,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2617,11 +2617,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2639,14 +2639,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2654,11 +2654,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2667,11 +2667,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2686,11 +2686,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2699,11 +2699,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2718,11 +2718,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2740,14 +2740,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2755,11 +2755,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2768,11 +2768,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2787,11 +2787,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2800,11 +2800,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2819,11 +2819,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2841,14 +2841,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2856,11 +2856,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2869,11 +2869,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2888,11 +2888,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -2901,11 +2901,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -2920,11 +2920,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   },
@@ -2942,14 +2942,14 @@
         "steel_tariffRate": 0.2,
         "steel_co2EmissionPerUnit": 3,
         "steel_co2TaxCostPerUnit": 0.30000000000000004,
-        "steel_costPerUnit": 3.3
+        "steel_costPerUnit": 3.36
       },
       "plastic_material": {
         "plastic_basePrice": 1.8,
         "plastic_tariffRate": 0.15,
         "plastic_co2EmissionPerUnit": 2.5,
         "plastic_co2TaxCostPerUnit": 0.25,
-        "plastic_costPerUnit": 2.3200000000000003
+        "plastic_costPerUnit": 2.3574999999999995
       },
       "widget_production": {
         "widget_energyConsumptionPerUnit": 0.1,
@@ -2957,11 +2957,11 @@
         "widget_emittedCo2PerUnit": 2.5,
         "widget_co2TaxCostPerUnit": 0.25,
         "widget_steel_consumptionPerUnit": 5,
-        "widget_steel_costPerProduct": 16.5,
+        "widget_steel_costPerProduct": 16.8,
         "widget_plastic_consumptionPerUnit": 3,
-        "widget_plastic_costPerProduct": 6.960000000000001,
-        "widget_totalMaterialCostPerProduct": 23.46,
-        "widget_totalCostPerProduct": 23.720000000000002
+        "widget_plastic_costPerProduct": 7.072499999999998,
+        "widget_totalMaterialCostPerProduct": 23.8725,
+        "widget_totalCostPerProduct": 24.1325
       },
       "widget_product": {
         "widget_producedUnits": 100,
@@ -2970,11 +2970,11 @@
         "widget_co2Emission": 250,
         "widget_co2TaxCost": 25,
         "widget_steel_materialUse": 500,
-        "widget_steel_materialCost": 1650,
+        "widget_steel_materialCost": 1680,
         "widget_plastic_materialUse": 300,
-        "widget_plastic_materialCost": 696.0000000000001,
-        "widget_materialCost": 2346,
-        "widget_totalCost": 2372
+        "widget_plastic_materialCost": 707.2499999999998,
+        "widget_materialCost": 2387.25,
+        "widget_totalCost": 2413.25
       },
       "widget_storage": {
         "widget_baseDemand": 500,
@@ -2989,11 +2989,11 @@
         "gadget_emittedCo2PerUnit": 3,
         "gadget_co2TaxCostPerUnit": 0.30000000000000004,
         "gadget_steel_consumptionPerUnit": 7,
-        "gadget_steel_costPerProduct": 23.099999999999998,
+        "gadget_steel_costPerProduct": 23.52,
         "gadget_plastic_consumptionPerUnit": 4,
-        "gadget_plastic_costPerProduct": 9.280000000000001,
-        "gadget_totalMaterialCostPerProduct": 32.379999999999995,
-        "gadget_totalCostPerProduct": 32.69499999999999
+        "gadget_plastic_costPerProduct": 9.429999999999998,
+        "gadget_totalMaterialCostPerProduct": 32.949999999999996,
+        "gadget_totalCostPerProduct": 33.26499999999999
       },
       "gadget_product": {
         "gadget_producedUnits": 200,
@@ -3002,11 +3002,11 @@
         "gadget_co2Emission": 600,
         "gadget_co2TaxCost": 60,
         "gadget_steel_materialUse": 1400,
-        "gadget_steel_materialCost": 4620,
+        "gadget_steel_materialCost": 4704,
         "gadget_plastic_materialUse": 800,
-        "gadget_plastic_materialCost": 1856.0000000000002,
-        "gadget_materialCost": 6476,
-        "gadget_totalCost": 6539
+        "gadget_plastic_materialCost": 1885.9999999999995,
+        "gadget_materialCost": 6590,
+        "gadget_totalCost": 6653
       },
       "gadget_storage": {
         "gadget_baseDemand": 300,
@@ -3021,11 +3021,11 @@
         "total_co2_emission": 850,
         "total_co2_tax_cost": 85,
         "steel_total_consumed": 1900,
-        "steel_total_cost": 6270,
+        "steel_total_cost": 6384,
         "plastic_total_consumed": 1100,
-        "plastic_total_cost": 2552.0000000000005,
-        "total_material_costs": 8822,
-        "total_all_costs": 8911
+        "plastic_total_cost": 2593.249999999999,
+        "total_material_costs": 8977.25,
+        "total_all_costs": 9066.25
       }
     }
   }
